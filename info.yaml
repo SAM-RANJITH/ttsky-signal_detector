@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "GPR Digital Signal Processor"
+  title:        "Signal_Detection_Core Processor"
   author:       "Sam Ranjith"
   discord:      "" 
   description:  "Ground Penetrating Radar digital processor using FIR filtering and peak detection"
@@ -11,11 +11,11 @@ project:
   tiles: "1x1"
 
   # Top module name
-  top_module:  "tt_um_gpr_processor"
+  top_module:  "signal_detection_core"
 
   # Source files
   source_files:
-    - "tt_um_gpr_processor.v"
+    - "tt_um_signal_detection_core.v"
     - "fir_filter.v"
     - "envelope_detector.v"
     - "peak_detector.v"
