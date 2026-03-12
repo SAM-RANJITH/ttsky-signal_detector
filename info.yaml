@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "Signal_Detection_Core Processor"
+  title:        "Signal_Detection_Processor"
   author:       "Sam Ranjith"
   discord:      "" 
   description:  "Ground Penetrating Radar digital processor using FIR filtering and peak detection"
@@ -11,14 +11,16 @@ project:
   tiles: "1x1"
 
   # Top module name
-  top_module:  "tt_um_signal_detection_core"
+  top_module:  "tt_um_signal_detector"
 
   # Source files
   source_files:
-    - "tt_um_signal_detection_core.v"
+    - "tt_um_signal_detector.v"
     - "fir_filter.v"
     - "envelope_detector.v"
     - "peak_detector.v"
+    - "depth_estimator.v"
+    
 
 # Pinout description
 pinout:
